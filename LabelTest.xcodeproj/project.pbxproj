@@ -13,6 +13,8 @@
 		0D4021F51C3F9FA300940FCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D4021F31C3F9FA300940FCC /* Main.storyboard */; };
 		0D4021F71C3F9FA300940FCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D4021F61C3F9FA300940FCC /* Assets.xcassets */; };
 		0D4021FA1C3F9FA300940FCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D4021F81C3F9FA300940FCC /* LaunchScreen.storyboard */; };
+		0D4022021C3FA20A00940FCC /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D4022011C3FA20A00940FCC /* CoreText.framework */; };
+		0DF9849F1C43B2890020239D /* CustomeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DF9849E1C43B2890020239D /* CustomeLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		0D4021F61C3F9FA300940FCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D4021F91C3F9FA300940FCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0D4021FB1C3F9FA300940FCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D4022011C3FA20A00940FCC /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		0DF9849D1C43B2890020239D /* CustomeLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomeLabel.h; sourceTree = "<group>"; };
+		0DF9849E1C43B2890020239D /* CustomeLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomeLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D4022021C3FA20A00940FCC /* CoreText.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +48,7 @@
 		0D4021DE1C3F9FA200940FCC = {
 			isa = PBXGroup;
 			children = (
+				0D4022011C3FA20A00940FCC /* CoreText.framework */,
 				0D4021E91C3F9FA300940FCC /* LabelTest */,
 				0D4021E81C3F9FA300940FCC /* Products */,
 			);
@@ -62,6 +69,8 @@
 				0D4021EE1C3F9FA300940FCC /* AppDelegate.m */,
 				0D4021F01C3F9FA300940FCC /* ViewController.h */,
 				0D4021F11C3F9FA300940FCC /* ViewController.m */,
+				0DF9849D1C43B2890020239D /* CustomeLabel.h */,
+				0DF9849E1C43B2890020239D /* CustomeLabel.m */,
 				0D4021F31C3F9FA300940FCC /* Main.storyboard */,
 				0D4021F61C3F9FA300940FCC /* Assets.xcassets */,
 				0D4021F81C3F9FA300940FCC /* LaunchScreen.storyboard */,
@@ -150,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D4021F21C3F9FA300940FCC /* ViewController.m in Sources */,
+				0DF9849F1C43B2890020239D /* CustomeLabel.m in Sources */,
 				0D4021EF1C3F9FA300940FCC /* AppDelegate.m in Sources */,
 				0D4021EC1C3F9FA300940FCC /* main.m in Sources */,
 			);
@@ -300,6 +310,7 @@
 				0D4022001C3F9FA300940FCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
